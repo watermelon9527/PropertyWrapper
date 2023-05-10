@@ -11,8 +11,9 @@ struct Wrappers {
     @KeychainWrapper(key: .password) static var password
     @KeychainWrapper(key: .nationalId) static var nationalId
 
-    
-    
-    
+    @UserDefaultsWrapper<Bool>(key: .isOpen) static var isOpen: Bool?
+    @UserDefaultsWrapper<String>(key: .accessToken) static var accessToken: String?
+    @UserDefaultsWrapper<Int>(key: .count) static var count: Int?
+
     
 }

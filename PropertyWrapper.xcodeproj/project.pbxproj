@@ -19,6 +19,7 @@
 		B9A5B62A2A08EFE8006ED783 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A5B6292A08EFE8006ED783 /* KeychainWrapper.swift */; };
 		B9A5B62C2A08F06F006ED783 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A5B62B2A08F06F006ED783 /* Keychain.swift */; };
 		B9A5B62F2A08F37C006ED783 /* Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A5B62E2A08F37C006ED783 /* Wrapper.swift */; };
+		B9BB6EB92A0A292400FBB0D4 /* UserDefaultWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BB6EB82A0A292400FBB0D4 /* UserDefaultWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		B9A5B6292A08EFE8006ED783 /* KeychainWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
 		B9A5B62B2A08F06F006ED783 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
 		B9A5B62E2A08F37C006ED783 /* Wrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wrapper.swift; sourceTree = "<group>"; };
+		B9BB6EB82A0A292400FBB0D4 /* UserDefaultWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 				B9A5B62E2A08F37C006ED783 /* Wrapper.swift */,
 				B9A5B62B2A08F06F006ED783 /* Keychain.swift */,
 				B9A5B6292A08EFE8006ED783 /* KeychainWrapper.swift */,
+				B9BB6EB82A0A292400FBB0D4 /* UserDefaultWrapper.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				B9A5B5FE2A08EEE2006ED783 /* ViewController.swift in Sources */,
 				B9A5B62A2A08EFE8006ED783 /* KeychainWrapper.swift in Sources */,
 				B9A5B5FA2A08EEE2006ED783 /* AppDelegate.swift in Sources */,
+				B9BB6EB92A0A292400FBB0D4 /* UserDefaultWrapper.swift in Sources */,
 				B9A5B5FC2A08EEE2006ED783 /* SceneDelegate.swift in Sources */,
 				B9A5B62C2A08F06F006ED783 /* Keychain.swift in Sources */,
 				B9A5B62F2A08F37C006ED783 /* Wrapper.swift in Sources */,
